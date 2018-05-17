@@ -8,6 +8,8 @@ func New() *Converter {
 	return &Converter{}
 }
 
-func (c *Converter) Convert(t *temperature.Temperature) {
+type Temperature = temperature.Temperature
+
+func (c *Converter) Convert(t *Temperature) {
 
 }
